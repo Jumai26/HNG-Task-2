@@ -47,10 +47,7 @@ export default function ShopPage() {
                         <div className='w-2 h-2 sm:w-4 sm:h-4 bg-secondary-color rounded-full'></div>
                         <p className='text-[9.5px] sm:text-[17px]'>100% Comfy</p>
                     </div>
-                </div>
-                <div>
-
-                </div>
+                </div>        
             </div>
         </div>
     )

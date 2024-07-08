@@ -4,7 +4,7 @@ import Navbar from './components/Navbar'
 import ShopPage from './components/ShopPage'
 import Likes from './components/Likes'
 import BestSellers from './components/BestSellers'
-import Review from './components/Review'
+import Explore from './components/Explore'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +16,8 @@ function App() {
         <ShopPage/>
         <Likes/>
         <BestSellers/>
+        <Explore/>
+
       </div>  
     </>
   )

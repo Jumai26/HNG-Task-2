@@ -2,7 +2,7 @@ import Star from '../assets/icons/vector.png'
 
 export default function Review() {
     return (
-        <div className='flex flex-row gap-x-1 w-[167px] sm:w-[250px] sm:mx-20 mb-3 mx-6 sm:m-0 font-headings font-medium'>
+        <div className='flex flex-row justify-start gap-x-1 w-[127px] sm:w-[250px] mb-3 mx-6 sm:m-0 font-headings font-medium'>
             <div className='flex flex-row'>
                 <img src={Star} className='w-[9.8px] h-[9.8px] sm:w-[14px] sm:h-[14px]'></img>
                 <img src={Star} className='w-[9.8px] h-[9.8px] sm:w-[14px] sm:h-[14px]'></img>

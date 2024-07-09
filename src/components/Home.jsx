@@ -3,6 +3,8 @@ import ShopPage from "../components/ShopPage";
 import Likes from "../components/Likes";
 import BestSellers from "../components/BestSellers";
 import Explore from "../components/Explore";
+import Trending from "../components/Trending";
+import AllProducts from "../components/AllProducts";
 
 export default function Home() {
     return (
@@ -12,6 +14,8 @@ export default function Home() {
             <Likes />
             <BestSellers />
             <Explore />
+            <Trending />
+            <AllProducts />
         </div>
     )
 };

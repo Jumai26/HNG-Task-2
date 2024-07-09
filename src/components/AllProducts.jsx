@@ -6,81 +6,99 @@ import ShoeFifth from '../assets/images/shoefive.png'
 import ShoeSix from '../assets/images/shoesix.png'
 import ShoeSeven from '../assets/images/shoeseven.png'
 import ShoeEight from '../assets/images/shoeeight.png'
+import Love from '../assets/icons/love.png'
+import Cart from '../assets/icons/cart.png'
 import Review from './Review'
 
 
-export default function AllProducts() {
+export default function BestSellers() {
     return (
-        <div className='sm:mx-20 mb-3 mx-6 sm:mt-24 font-headings font-medium'>
+        <div className='sm:mx-20 mb-3 mx-6 sm:m-0 font-headings font-medium'>
             <p className='sm:text-4xl sm:leading-10 sm:mb-10'>All Products</p>
-            <div className='grid grid-cols-2 sm:grid-cols-4 justify-stretch content-stretch gap-x-2 gap-y-8 sm:gap-6 '>
-                {/* <div className=' flex flex-row flex-wrap flex-shrink grow justify-between sm:justify-between gap-x-2 gap-y-8 sm:gap-6 '> */}
-                <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
-                    <img src={Shoefirst} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='sm:my-2'>
+            {/* <div className='grid grid-cols-2 sm:grid-cols-4 justify-stretch gap-x-2 gap-y-8 sm:gap-6 '> */}
+            <div className=' flex flex-row flex-wrap flex-shrink flex-grow justify-between sm:justify-between gap-x-2 gap-y-8 sm:gap-6 '>
+                <div className='relative justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px]'>
+                    <img src={Shoefirst} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>        
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' w-full sm:p-2 rounded-full'></img></div>
+                    <div className='sm:-my-6'>
                         <Review />
-                        <p className='text-[11px] sm:text-sm leading-none sm:leading-4 font-normal sm:my-2'>Nike Running Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-2 sm:my-2'>N959,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className='text-[9px] sm:text-sm leading-none sm:leading-4 font-normal sm:my-2'>Nike Running Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-2 sm:my-2'>N959,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
                     <img src={Shoesecond} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className=' sm:my-2'>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className=' sm:-my-6'>
                         <Review />
-                        <p className='text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Swimming Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N459,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className='text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Swimming Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N459,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
                     <img src={Shoethird} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='sm:my-2'>
-                        <div className='justify-start content-start'><Review /></div>
-                        <p className=' text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Jogging Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N195,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='sm:-my-6'>
+                        <Review />
+                        <p className=' text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Jogging Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N195,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between item-center w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
                     <img src={ShoeFourth} className=' w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='my-2'>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='-my-6'>
                         <Review />
-                        <p className=' text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Track Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N95,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className=' text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Track Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N95,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
                     <img src={ShoeFifth} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='my-2'>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='-my-6'>
                         <Review />
-                        <p className='text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Luke Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className='text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Luke Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px]  rounded-t-xl'>
                     <img src={ShoeSix} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='my-2'>
+                    
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='-my-6'>
                         <Review />
-                        <p className='text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Sport Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className='text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Sport Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl' >
                     <img src={ShoeSeven} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='my-2'>
-                        <div className='content-start'><Review /></div>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='-my-6'>
+                        <Review />
                         <p className='text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Event Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
                     <img src={ShoeEight} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
-                    <div className='my-2'>
-                        <div className='content-start'><Review /></div>
-                        <p className='text-[11px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Race Shoe</p>
-                        <p className='text-[9.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[6.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                    <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
+                    <div className='-my-6'>
+                        <Review />
+                        <p className='text-[9px] sm:text-sm sm:leading-4 font-normal sm:my-2'>Nike Race Shoe</p>
+                        <p className='text-[7.5px] leading-none sm:text-sm sm:leading-3 font-semibold mb-1 sm:my-2'>N959,765<span className='text-[4.2px] sm:text-[8px] sm:leading-3 px-3 font-normal text-[#979797]'>4,430 Sold</span></p>
+                        <div className='relative -right-28 -top-5 sm:-right-52 sm:-top-10 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-secondary-color sm:rounded-md'><img src={Cart} className=' w-full sm:p-2 rounded-full'></img></div>
                     </div>
                 </div>
             </div>
-            <p className='text-center font-body font-normal text-sm sm:mt-20 sm:mb-8'>See more</p>
         </div>
     )
 };

@@ -7,6 +7,7 @@ import BestSellers from './components/BestSellers'
 import Explore from './components/Explore'
 import Trending from './components/Trending'
 import AllProducts from './components/AllProducts'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
         <Explore/>
         <Trending/>
         <AllProducts/>
+        <Footer/>
       </div>  
     </>
   )

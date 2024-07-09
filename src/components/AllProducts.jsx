@@ -80,6 +80,7 @@ export default function AllProducts() {
                     </div>
                 </div>
             </div>
+            <p className='text-center font-body font-normal text-sm sm:mt-20 sm:mb-8'>See more</p>
         </div>
     )
 };

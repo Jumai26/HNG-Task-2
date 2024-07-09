@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Shoeone from "../assets/images/shoefirst.png";
 import Thrash from "../assets/icons/thrash.png";
@@ -41,7 +42,9 @@ export default function AllCart() {
                         <span className=" sm:text-lg sm:leading-3 font-semibold">N751,331</span>
                     </div>
                     <p className='text-[9px] sm:text-[10px]leading-none sm:leading-2 font-medium '>Delivery fee not included yet</p>
-                    <button className='w-full p-1 bg-secondary-color rounded-xl text-white text-[11.19px] leading-3 sm:text-sm sm:leading-6 mt-5'>Checkout (N751,331) </button>
+                    <Link to="/checkout">
+                        <button className='w-full p-1 bg-secondary-color rounded-xl text-white text-[11.19px] leading-3 sm:text-sm sm:leading-6 mt-5 hover:p-2 hover:border-green-950 hover:border'>Checkout (N751,331) </button> 
+                    </Link>
                     <p className='text-[9px] sm:text-[12px] leading-none sm:leading-2 font-medium mt-6'>Returns are easy</p>
                     <p className='text-[9px] sm:text-[10px]leading-none sm:leading-2 font-medium '>free return within 7 days for ALL eligible items</p>
                 </div>

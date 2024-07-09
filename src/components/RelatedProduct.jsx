@@ -15,7 +15,7 @@ import Review from './Review'
 
 export default function BestSellers() {
     return (
-        <div className='sm:mx-20 mb-3 mx-6 sm:mt-20 font-headings font-medium'>
+        <div className='sm:mx-20 mb-20 mx-6 sm:mt-20 font-headings font-medium'>
             <p className='sm:text-4xl sm:leading-10 sm:mb-10'>Related Products</p>
             {/* <div className='grid grid-cols-2 sm:grid-cols-4 justify-stretch gap-x-2 gap-y-8 sm:gap-6 '> */}
             <div className=' flex flex-row flex-wrap flex-shrink flex-grow justify-between sm:justify-between gap-x-2 gap-y-8 sm:gap-6 '>

@@ -22,7 +22,7 @@ export default function Navbar() {
                 <div className='w-4 h-4'>
                     <img src={Search} ></img>
                 </div>
-                <div className='w-[14px] h-4'>
+                <div className='w-[14px] h-4 hover:w-4 border hover:h-2'>
                     <img src={MyCart} ></img>
                 </div>
                 <div className='w-3 h-2' >

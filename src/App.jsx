@@ -1,29 +1,15 @@
-import { useState } from 'react'
+import React from 'react';
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import Navbar from './components/Navbar'
-import ShopPage from './components/ShopPage'
-import Likes from './components/Likes'
-import BestSellers from './components/BestSellers'
-import Explore from './components/Explore'
-import Trending from './components/Trending'
-import AllProducts from './components/AllProducts'
-import Footer from './components/Footer'
+import Home from './components/Home';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <Navbar/>
-        <ShopPage/>
-        <Likes/>
-        <BestSellers/>
-        <Explore/>
-        <Trending/>
-        <AllProducts/>
-        <Footer/>
-      </div>  
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
     </>
   )
 }

@@ -11,9 +11,6 @@ export default function Navbar() {
             <div>
                 <h1 className=' text-xl sm:text-2xl leading-6'>ShoeBank</h1>
             </div>
-            <div className='visible sm:invisible'>
-                <img src={Menu} className='w-6 h-6'></img>
-            </div>
             <div className='hidden sm:visible sm:flex flex-row justify-between gap-x-10 text-base'>
                 <p>Home</p>
                 <p>Shop</p>

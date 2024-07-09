@@ -5,6 +5,7 @@ import BestSellers from "../components/BestSellers";
 import Explore from "../components/Explore";
 import Trending from "../components/Trending";
 import AllProducts from "../components/AllProducts";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Explore />
             <Trending />
             <AllProducts />
+            <Footer />
         </div>
     )
 };

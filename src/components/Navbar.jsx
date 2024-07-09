@@ -3,6 +3,7 @@ import Menu from '../assets/icons/menu_hamburger.png';
 import Profile from '../assets/icons/profile.png'
 import Search from '../assets/icons/search.png'
 import MyCart from '../assets/icons/mycarts.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -23,7 +24,7 @@ export default function Navbar() {
                     <img src={Search} ></img>
                 </div>
                 <div className='w-[14px] h-4 hover:w-4 border hover:h-2'>
-                    <img src={MyCart} ></img>
+                    <Link to="/mycart"> <img src={MyCart} ></img> </Link>
                 </div>
                 <div className='w-3 h-2' >
                     <img src={Profile}></img>

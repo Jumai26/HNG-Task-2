@@ -18,7 +18,7 @@ export default function Footer(params) {
                 <img src={Twitter} ></img>
                 <img src={Instagram} ></img>
             </div>
-            <div className="flex justify-center gap-10 sm:py-10 ">© 2024 Fullstack Mechanic. All rights reserved</div>
+            <div className="flex justify-center gap-x-10 sm:py-10 ">© 2024 Fullstack Mechanic. All rights reserved</div>
         </div>
     )
 };

@@ -6,6 +6,7 @@ import Explore from "../components/Explore";
 import Trending from "../components/Trending";
 import AllProducts from "../components/AllProducts";
 import Footer from "../components/Footer";
+import AllCart from "../components/AllCart";
 
 export default function Home() {
     return (
@@ -18,6 +19,7 @@ export default function Home() {
             <Trending />
             <AllProducts />
             <Footer />
+            <AllCart />
         </div>
     )
 };

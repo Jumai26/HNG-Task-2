@@ -5,7 +5,7 @@ export default function Explore() {
     return (
         <div className='sm:mx-20 my-3 mx-6 sm:mt-24 h-[575px] font-headings font-medium grid sm:grid-cols-2 stretch flex-grow gap-x-2 gap-y-8 sm:gap-6'>
             <div className=" -mb-12 sm:mb-0">
-                <p className='mt-9 sm:mt-0 sm:text-4xl sm:leading-[55px] sm:mb-0 mb-5'>Explore New <span className='visible sm:invisible'>Collections</span></p>
+                <p className='mt-9 sm:mt-0 sm:text-4xl sm:leading-[55px] sm:mb-0 mb-5'>Explore New <span className='visible sm:hidden'>Collections</span></p>
                 <p className='invisible sm:visible mt-9  sm:-mt-3 sm:text-4xl sm:leading-[55px] mb-5'>Collections </p>
                 <img src={Exploreone}></img>
             </div>

@@ -9,10 +9,10 @@ import ShoeEight from '../assets/images/shoeeight.png'
 import Review from './Review'
 
 
-export default function BProducts() {
+export default function AllProducts() {
     return (
-        <div className='sm:mx-20 mb-3 mx-6 sm:m-0 font-headings font-medium'>
-            <p className='sm:text-4xl sm:leading-10 sm:mb-10'>Best Sellers</p>
+        <div className='sm:mx-20 mb-3 mx-6 sm:mt-24 font-headings font-medium'>
+            <p className='sm:text-4xl sm:leading-10 sm:mb-10'>All Products</p>
             <div className='grid grid-cols-2 sm:grid-cols-4 justify-stretch content-stretch gap-x-2 gap-y-8 sm:gap-6 '>
                 {/* <div className=' flex flex-row flex-wrap flex-shrink grow justify-between sm:justify-between gap-x-2 gap-y-8 sm:gap-6 '> */}
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>

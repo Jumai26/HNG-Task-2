@@ -6,6 +6,7 @@ import Likes from './components/Likes'
 import BestSellers from './components/BestSellers'
 import Explore from './components/Explore'
 import Trending from './components/Trending'
+import AllProducts from './components/AllProducts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <BestSellers/>
         <Explore/>
         <Trending/>
+        <AllProducts/>
       </div>  
     </>
   )

@@ -20,7 +20,7 @@ export default function BestSellers() {
             {/* <div className='grid grid-cols-2 sm:grid-cols-4 justify-stretch gap-x-2 gap-y-8 sm:gap-6 '> */}
             <div className=' flex flex-row flex-wrap flex-shrink flex-grow justify-between sm:justify-between gap-x-2 gap-y-8 sm:gap-6 '>
                 <div className='relative justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px]'>
-                    <img src={Shoefirst} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
+                    <img src={Shoefirst} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-xl sm:h-[180px] m-auto'></img>
                     <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' w-full sm:p-2 rounded-full'></img></div>
                     <div className='sm:-my-6'>
                         <Review />
@@ -30,7 +30,7 @@ export default function BestSellers() {
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
-                    <img src={Shoesecond} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
+                    <img src={Shoesecond} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-xl sm:h-[180px] m-auto'></img>
                     <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
                     <div className=' sm:-my-6'>
                         <Review />
@@ -40,7 +40,7 @@ export default function BestSellers() {
                     </div>
                 </div>
                 <div className='justify-between w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
-                    <img src={Shoethird} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
+                    <img src={Shoethird} className='w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-xl sm:h-[180px] m-auto'></img>
                     <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
                     <div className='sm:-my-6'>
                         <Review />
@@ -50,7 +50,7 @@ export default function BestSellers() {
                     </div>
                 </div>
                 <div className='justify-between item-center w-[127px] h-[132px] sm:w-[250px] sm:h-[257px] rounded-t-xl'>
-                    <img src={ShoeFourth} className=' w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-t-xl sm:h-[180px] m-auto'></img>
+                    <img src={ShoeFourth} className=' w-[127px] h-[95px] sm:w-[250px] bg-[#F3F4F3] rounded-xl sm:h-[180px] m-auto'></img>
                     <div className='relative -right-28 -top-[89px] sm:-right-52 sm:-top-44 z-10 w-3 h-3 rounded-full sm:h-7 sm:w-7 bg-white sm:rounded-md'><img src={Love} className=' sm:p-2 rounded-full'></img></div>
                     <div className=' -my-1 sm:-my-6'>
                         <Review />

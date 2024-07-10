@@ -46,7 +46,7 @@ export default function Checkout(params) {
                                 </div>
                                 <div>
                                     <Link to="/">
-                                        <button className='w-full p-3 bg-secondary-color rounded-xl text-white text-[11.19px] leading-3 sm:text-base sm:leading-6 mt-5 hover:p-2 hover:border-green-950 hover:border'>Checkout (N751,331) </button>
+                                        <button className='w-full p-4 bg-secondary-color rounded-xl text-white text-[11.19px] leading-3 sm:text-base sm:leading-6 mt-5 hover:p-2 hover:border-green-950 hover:border'>Checkout (N751,331) </button>
                                     </Link>
                                 </div>
                             </form>

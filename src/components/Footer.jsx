@@ -4,7 +4,7 @@ import Instagram from '../assets/icons/instagram.png'
 
 export default function Footer(params) {
     return (
-        <div className='m-0 font-body font-normal text-[9px] sm:text-sm bg-black text-white'>
+        <div className='-mb-7 font-body font-normal text-[9px] sm:text-sm bg-black text-white'>
             <div className="flex justify-center gap-3 sm:gap-10 pt-5 sm:pt-10 ">
                 <p>About</p>
                 <p> Blog</p>

@@ -72,7 +72,7 @@ export default function Checkout(params) {
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 className=' text-[7.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
+                                    <h1 className=' text-[10.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
                                 </div>
                             </div>
                             <hr className="my-5"></hr>
@@ -94,7 +94,7 @@ export default function Checkout(params) {
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 className=' text-[7.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
+                                    <h1 className=' text-[10.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
                                 </div>
                             </div>
                             <hr className="my-5"></hr>
@@ -116,7 +116,7 @@ export default function Checkout(params) {
                                     </div>
                                 </div>
                                 <div>
-                                    <h1 className=' text-[7.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
+                                    <h1 className=' text-[10.5px] leading-none sm:text-lg sm:leading-3 font-semibold mb-2 sm:my-2'>N95,765</h1>
                                 </div>
                             </div>
                             <hr className="my-5"></hr>
